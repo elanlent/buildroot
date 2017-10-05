@@ -249,6 +249,11 @@ menu "Games"
 	source "package/sl/Config.in"
 endmenu
 
+# batocera.linux
+menu "Batocera"
+	source "package/batocera/Config.in"
+endmenu
+
 menu "Graphic libraries and applications (graphic/text)"
 
 comment "Graphic applications"
